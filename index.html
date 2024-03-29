@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spotify is a digital music service that gives you access to millions of songs.">
+    <meta name="keywords" content="Spotify, Spotify Web, Digital Music, Video Player" />
+    <meta name="author" content="Laura Bigoni">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.css'
+        integrity='sha512-4wfcoXlib1Aq0mUtsLLM74SZtmB73VHTafZAvxIp/Wk9u1PpIsrfmTvK0+yKetghCL8SHlZbMyEcV8Z21v42UQ=='
+        crossorigin='anonymous' />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spotify Web</title>
+</head>
+
+<body>
+    <main>
+        <div class="wrapper">
+
+            <nav id="sidebar-menu">
+
+                <div class="spotify-logo">
+                    <img class="logo" src="img/logo.svg" alt="spotify logo">
+                    <img class="logo-small" src="img/logo-small.svg" alt="Spotify logo small">
+                </div>
+
+                <div class="navigation">
+                    <ul>
+                        <li class="active"><a href="#"><img src="img/home.svg" alt="home"> <span>Home</span></a></li>
+                        <li><a href="#"><img class="greyscale" src="img/search.svg" alt="search"> <span
+                                    class="text-grey">Search</span></a>
+                        </li>
+                        <li><a href="#"><img class="greyscale" src="img/libreria.svg" alt="library"> <span
+                                    class="text-grey">Library</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="add-playlist">
+                    <ul>
+                        <li class="title">playlist</li>
+                        <li><a href="#"><i class="fas fa-plus"></i><span class="text-grey">Create Playlist</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="playlist">
+                    <ul class="scroll-playlist">
+                        <li><a class="text-grey" href="#">no playlist</a></li>
+                        <li><a class="text-grey" href="#">no playlist</a></li>
+                        <li><a class="text-grey" href="#">no playlist</a></li>
+                        <li><a class="text-grey" href="#">no playlist</a></li>
+                        <li><a class="text-grey" href="#">no playlist</a></li>
+                        <li><a class="text-grey" href="#">no playlist</a></li>
+                        <li><a class="text-grey" href="#">no playlist</a></li>
+                    </ul>
+                </div>
+
+                <div class="administration">
+                    <ul>
+                        <li><a href="#"><img class="download greyscale" src="img/download.svg" alt="download"><span
+                                    class="text-grey">Install app</span></a></li>
+                        <div class="border-top text-grey"></div>
+                        <li><a href="#"><img class="user" src="img/pfp.jpg" alt="user profile"> <span>ZAIN UL ABIDIN</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="main-content">
+
+                <header>
+
+                    <div id="top-menu">
+                        <a href="#">Upgrade to Premium</a>
+                    </div>
+                </header>
+                <nav id="content-menu">
+                    <ul>
+                        <li class=""><a class="active text-grey" href="#">Featured</a>
+                            <div></div>
+                        </li>
+                        <li><a class="text-grey" href="#">Podcasts</a></li>
+                        <li><a class="text-grey" href="#">Classic</a></li>
+                        <li><a class="text-grey" href="#">New Releases</a></li>
+                        <li><a class="text-grey" href="#">Discover</a></li>
+                    </ul>
+                </nav>
+                <div class="recently-played">
+                    <h2>Recently played</h2>
+                    <section class="d-flex-self">
+                        <div class="album">
+                            <div class="card"><img src="img/montagem.jpg" alt="metal lifting"><i class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>Montagem</h3>
+                                <span>PR Funk</span>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="img/iraaday.jpeg" alt="Stranger Things"><i class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>Iraaday</h3>
+                                <span>Abdul Hannan</span>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="img/shubh.jpeg" alt="a quiet place"><i class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>We Rollin</h3>
+                                <span>Shubh</span>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="img/sidhu.jpeg" alt="Split"><i class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>Levels</h3>
+                                <span>Sidhu Moosewala</span>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="img/anuv.jpeg" alt="a cure for wellness"><i class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>Gul</h3>
+                                <span>Anuv Jain</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="for-you">
+                    <h2>Created for ZAIN</h2>
+                    <h4 class="text-grey">The more you listen the more accurate the suggestions will be.</h4>
+                    <section class="d-flex">
+                        <div class="album">
+                            <div class="card"><img src="img/release.jpeg" alt="release radar"><i class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>Release Radar</h3>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="img/daily-mix.jpg" alt="Daily Mix"><i class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>Daily Mix 1</h3>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="artists">
+                    <h2>Most Popular Artists</h2>
+                    <h4 class="text-grey">The more you listen the more accurate the suggestions will be.</h4>
+                    <section class="d-flex">
+                        <div class="album">
+                            <div class="card"><img src="img/ap-dhillon.jpeg" alt="Lana Del Rey"><i class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>AP Dhillon</h3>
+                            </div>
+                        </div>
+                        <div class="album">
+                            <div class="card"><img src="img/shubh-pfp.jpeg" alt="Ludovico Einaudi"><i class="far fa-play-circle"></i>
+                            </div>
+                            <div>
+                                <h3>Shubh</h3>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="controls">
+            <div class="now-playing">
+                <img src="img/montagem.jpg" alt="track">
+                <span class="artist-name">Montagem<br><span class="text-grey track-info">PR Funk<br></span></span>
+            </div>
+            <div class="like-folder">
+                <i class="text-grey far fa-heart"></i>
+                <i class="text-grey far fa-folder"></i>
+            </div>
+            <div class="track-controls">
+                <div class="music-controls">
+                    <i class="fas fa-random"></i>
+                    <i class="fas fa-step-backward"></i>
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-step-forward"></i>
+                    <i class="fas fa-redo-alt"></i>
+                </div>
+                <div class="progress-controls">
+                    <span>0:25</span>
+                    <div class="progress-bar">
+                        <div class="progress-bar overlay">
+                            <div class="pointer"></div>
+                        </div>
+                    </div>
+                    <span>4:32</span>
+                </div>
+            </div>
+            <div class="devices">
+                <div class="menage-devices">
+                    <i class="fas fa-list"></i>
+                    <i class="fas fa-desktop"></i>
+                    <i class="fas fa-volume-up"></i>
+                    <div class="volume-bar">
+                        <div class="volume-bar overlay">
+                            <div class="pointer"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
